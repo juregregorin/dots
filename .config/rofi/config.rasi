@@ -1,0 +1,46 @@
+configuration {
+    lines: 10;
+    eh: 1;
+    font: "SF Pro Display 13";
+    fullscreen: false;
+    hide-scrollbar: true;
+    separator-style: none;
+    padding: 800;
+    text-color: White;
+}
+
+* {
+    background-color: #00000000;
+    text-color: White;
+}
+
+#window {
+    background-color: #000000B2;
+    padding: 50px;
+    transparency: "real";
+    width: 30%;
+}
+
+#mainbox {
+    width: 30%;
+}
+
+#prompt { 
+    enabled: false;
+}
+
+#listview {
+    cycle: true;
+}
+
+#element {
+    text-color: #aaaaaa;
+    highlight: None #ffffff;
+}
+
+#element selected {
+    background-color: White;
+    text-color: #555555;
+    highlight: None #000000;
+}
+

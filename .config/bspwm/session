@@ -1,0 +1,36 @@
+#!/bin/sh
+
+# Configure background
+
+exec feh --bg-scale ~/wallpapers/wallhaven-vgg61l.jpg &
+
+# Start compositor
+killall compton
+exec compton --config ~/.config/compton/config &
+
+# Start polybar
+killall polybar
+exec polybar -c ~/.config/polybar/config bar &
+
+# Start notification daemon
+exec dunst &
+
+# Setup GNOME Keyring
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh) &
+export SSH_AUTH_SOC
+
+# Start NetworkManager applet
+exec nm-applet &
+
+exec blueberry-tray &
+
+exec setxkbmap -option 'grp:alt_space_toggle' &
+
+# Ping to keep internet up, silly connection
+exec ping 1.1.1.1 &
+
+
+# Start some chat apps
+eval $(sleep 1 && slack -u) &
+eval $(sleep 1 && discord) &
+eval $(sleep 1 && steam -silent) &
