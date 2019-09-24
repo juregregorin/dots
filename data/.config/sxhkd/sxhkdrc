@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	urxvt
+	alacritty
 
 # program launcher
 super + d
@@ -121,7 +121,7 @@ super + {Left,Down,Up,Right}
 # gap size
 
 super + g
-	bspc config window_gap {20, 10, 0}
+	bspc config window_gap {20, 0, 10}
 
 # media controls
 XF86AudioRaiseVolume
@@ -133,6 +133,14 @@ XF86AudioLowerVolume
 XF86AudioMute
 	pactl set-sink-mute @DEFAULT_SINK@ toggle
 
+XF86MonBrightnessUp
+	xbacklight -inc 5
+
+XF86MonBrightnessDown
+	xbacklight -dec 5
+
+# screenshots
+
 @Print
         (export FNAME="$HOME/$(date +%F-%T).png"; maim $FNAME; cat $FNAME | xclip -selection clipboard -t image/png && notify-send -i $FNAME -a maim "Destop screenshot saved to $FNAME and clipboard.")
 
@@ -140,7 +148,7 @@ alt + @Print
         (sleep 2; export FNAME="$HOME/$(date +%F-%T).png"; maim -s $FNAME; cat $FNAME | xclip -selection clipboard -t image/png && notify-send -i $FNAME -a maim "Destop screenshot saved to $FNAME and clipboard.")
 
 ctrl + @Print
-        (export FNAME="$HOME/$(date +%F-%T).png"; maim -i $(xdotool getactivewindow) $FNAME; cat $FNAME | xclip -selection clipboard -t image/png && notify-send -i FNAME -a maim "Destop screenshot saved to $FNAME and clipboard.")
+        (export FNAME="$HOME/$(date +%F-%T).png"; maim -i $(xdotool getactivewindow) $FNAME; cat $FNAME | xclip -selection clipboard -t image/png && notify-send -iNAME -a maim "Destop screenshot saved to $FNAME and clipboard.")
 
 ctrl + shift + @Print
         (export FNAME="$HOME/$(date +%F-%T).png"; maim -s $FNAME; cat $FNAME | xclip -selection clipboard -t image/png && notify-send -i $FNAME -a maim "Destop screenshot saved to $FNAME and clipboard.")
