@@ -148,7 +148,7 @@ alt + @Print
         (sleep 2; export FNAME="$HOME/$(date +%F-%T).png"; maim -s $FNAME; cat $FNAME | xclip -selection clipboard -t image/png && notify-send -i $FNAME -a maim "Destop screenshot saved to $FNAME and clipboard.")
 
 ctrl + @Print
-        (export FNAME="$HOME/$(date +%F-%T).png"; maim -i $(xdotool getactivewindow) $FNAME; cat $FNAME | xclip -selection clipboard -t image/png && notify-send -iNAME -a maim "Destop screenshot saved to $FNAME and clipboard.")
+        (export FNAME="$HOME/$(date +%F-%T).png"; maim -i $(xdotool getactivewindow) $FNAME; cat $FNAME | xclip -selection clipboard -t image/png && notify-send -i $FNAME -a maim "Destop screenshot saved to $FNAME and clipboard.")
 
 ctrl + shift + @Print
         (export FNAME="$HOME/$(date +%F-%T).png"; maim -s $FNAME; cat $FNAME | xclip -selection clipboard -t image/png && notify-send -i $FNAME -a maim "Destop screenshot saved to $FNAME and clipboard.")
