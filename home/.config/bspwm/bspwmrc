@@ -14,3 +14,8 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      false
 
 bspc rule -a Peek state=floating
+bspc rule -a 'steam_app_*' state=floating
+
+xsetroot -cursor_name left_ptr
+
+bash /home/jure/.config/bspwm/bspwm_colors.sh &

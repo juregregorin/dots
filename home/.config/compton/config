@@ -18,7 +18,7 @@ vsync = "opengl-swc";
 clear-shadow = true;
 no-dnd-shadow = true;
 no-dock-shadow = false;
-shadow = true;
+shadow = false;
 shadow-ignore-shaped = true;
 shadow-offset-x = -8;
 shadow-offset-y = -8;
@@ -28,7 +28,7 @@ shadow-radius = 6;
 blur-background = true;
 blur-background-fixed = true;
 blur-method = "kawase";
-blur-strength = 15;
+blur-strength = 10;
 
 shadow-exclude = [
     "class_g *= 'Rofi'",
@@ -66,6 +66,6 @@ fade-exclude = [
 ];
 
 opacity-rule = [
-  "80:class_g = 'code-oss'",
-  "70:class_g = 'Dunst'"
+  "90:class_g = 'code-oss'",
+  "60:class_g = 'Dunst'"
 ];

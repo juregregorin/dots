@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + d
-	bash -c "rofi -show run"
+	zsh -c "rofi -show run"
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -19,7 +19,7 @@ super + Escape
 #
 
 # quit/restart bspwm
-super + alt + {q,r}
+ctrl + alt + shift + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
@@ -133,11 +133,20 @@ XF86AudioLowerVolume
 XF86AudioMute
 	pactl set-sink-mute @DEFAULT_SINK@ toggle
 
-XF86MonBrightnessUp
-	xbacklight -inc 5
+XF86AudioPlay
+	mpc toggle
 
-XF86MonBrightnessDown
-	xbacklight -dec 5
+XF86AudioNext
+	mpc next
+
+XF86AudioPrev
+	mpc prev
+
+{XF86MonBrightnessUp, super + Page_Up}
+	brightnessctl set +5
+
+{XF86MonBrightnessDown, super + Page_Down} 
+	brightnessctl set 5-
 
 # screenshots
 
@@ -152,3 +161,6 @@ ctrl + @Print
 
 ctrl + shift + @Print
         (export FNAME="$HOME/$(date +%F-%T).png"; maim -s $FNAME; cat $FNAME | xclip -selection clipboard -t image/png && notify-send -i $FNAME -a maim "Destop screenshot saved to $FNAME and clipboard.")
+
+super + shift + p
+	xcolor | tr -d '\n' | xclip -selection c

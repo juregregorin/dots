@@ -1,0 +1,136 @@
+{
+    "bookmarks": [],
+    "gui_state": {
+        "startupdialog": {
+            "geometry": "AdnQywADAAAAAAPAAAACHAAACz8AAAZTAAADwAAAAhwAAAs/AAAGUwAAAAAAAAAADwAAAAPAAAACHAAACz8AAAZT",
+            "width": 1920,
+            "height": 1080,
+            "x": 960,
+            "y": 540
+        },
+        "mainview": {
+            "geometry": "AdnQywADAAAAAAAUAAAAOAAADusAAAhbAAAAFAAAADgAAA7rAAAIWwAAAAAAAAAADwAAAAAUAAAAOAAADusAAAhb",
+            "width": 3800,
+            "height": 2084,
+            "x": 20,
+            "y": 56,
+            "lock_layout": true,
+            "windowstate": "AAAA/wAAAAL9AAAABAAAAAAAAAdrAAAIEPwCAAAAA/sAAAAMAEMAbwBtAG0AaQB0AQAAABQAAAFuAAAAUQD////7AAAADABTAHQAYQB0AHUAcwEAAAGFAAACUwAAAFkA////+wAAABAAQgByAGEAbgBjAGgAZQBzAQAAA9sAAARJAAAAWQD///8AAAABAAAHagAACBD8AgAAAAP7AAAAEgBGAGEAdgBvAHIAaQB0AGUAcwAAAAAZAAAA3QAAAFkA////+wAAAAgARABpAGYAZgEAAAAUAAAIEAAAAFkA////+wAAAAwAUgBlAGMAZQBuAHQAAAAAAP////8AAABZAP///wAAAAIAAAeAAAABkPwBAAAAAfsAAAAUAFMAdQBiAG0AbwBkAHUAbABlAHMAAAAAAAAAB4AAAACvAP///wAAAAMAAAAAAAAAAPwBAAAAAfwAAAAA/////wAAAAAA////+v////8BAAAAAvsAAAAOAEEAYwB0AGkAbwBuAHMAAAAAAP////8AAABlAP////sAAAAOAEMAbwBuAHMAbwBsAGUAAAAAAP////8AAABoAP///wAAAAAAAAgQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAA=",
+            "show_status_filter": false,
+            "toolbars": [],
+            "ref_sort": 0,
+            "show_diff_line_numbers": false,
+            "image_diff_mode": 0,
+            "image_zoom_mode": 3
+        },
+        "gitdag": {
+            "geometry": "AdnQywADAAAAAAEiAAAAAAAAB38AAAQZAAABIgAAABwAAAd/AAAEGQAAAAICAAAABpAAAAEiAAAAHAAAB38AAAQZ",
+            "width": 1630,
+            "height": 1022,
+            "x": 290,
+            "y": 0,
+            "lock_layout": false,
+            "windowstate": "AAAA/wAAAAL9AAAAAgAAAAAAAAOPAAAD5fwCAAAAAvsAAAAGAEwAbwBnAQAAABkAAAGtAAAAbQD////7AAAACABEAGkAZgBmAQAAAckAAAI1AAAAYAD///8AAAABAAACzAAAA+X8AgAAAAL7AAAACgBHAHIAYQBwAGgBAAAAGQAAAc8AAABrAP////sAAAAKAEYAaQBsAGUAcwEAAAHrAAACEwAAAGsA////AAAAAAAAA+UAAAAEAAAABAAAAAgAAAAI/AAAAAA=",
+            "count": 1000,
+            "log": {
+                "column_widths": [
+                    374,
+                    100,
+                    765
+                ]
+            }
+        },
+        "fetch": {
+            "geometry": "AdnQywADAAAAAAPZAAACKgAACyYAAAZFAAAD2QAAAioAAAsmAAAGRQAAAAAAAAAADwAAAAPZAAACKgAACyYAAAZF",
+            "width": 1870,
+            "height": 1052,
+            "x": 985,
+            "y": 554,
+            "tags": false,
+            "prune": false
+        },
+        "preferencesview": {
+            "geometry": "AdnQywADAAAAAAZUAAADXgAACKsAAAURAAAGVAAAA14AAAirAAAFEQAAAAAAAAAADwAAAAZUAAADXgAACKsAAAUR",
+            "width": 600,
+            "height": 436,
+            "x": 1620,
+            "y": 862
+        },
+        "push": {
+            "maximized": false,
+            "width": 2510,
+            "height": 1385,
+            "x": 1970,
+            "y": 27,
+            "tags": false,
+            "prompt": true
+        },
+        "stashview": {
+            "geometry": "AdnQywADAAAAAAAUAAAAOAAADusAAAhbAAAAFAAAADgAAA7rAAAIWwAAAAAAAAAADwAAAAAUAAAAOAAADusAAAhb",
+            "width": 3800,
+            "height": 2084,
+            "x": 20,
+            "y": 56,
+            "keep_index": true,
+            "stash_index": false,
+            "sizes": [
+                2015,
+                1773
+            ]
+        },
+        "selectcommits": {
+            "maximized": false,
+            "width": 2510,
+            "height": 1385,
+            "x": 1970,
+            "y": 879
+        },
+        "messagebox": {
+            "geometry": "AdnQywADAAAAAAWTAAACPwAACWsAAAYvAAAFkwAAAj8AAAlrAAAGLwAAAAAAAAAADwAAAAWTAAACPwAACWsAAAYv",
+            "width": 985,
+            "height": 1009,
+            "x": 1427,
+            "y": 575
+        },
+        "toolbarview": {
+            "geometry": "AdnQywADAAAAAAIJAAAFAAAABvQAAAgSAAACCQAABRwAAAb0AAAIEgAAAAEAAAAAB4AAAAIJAAAFHAAABvQAAAgS",
+            "width": 1260,
+            "height": 759,
+            "x": 521,
+            "y": 1280
+        },
+        "finder": {
+            "geometry": "AdnQywADAAAAAATnAAAAJgAAChgAAAhJAAAE5wAAACYAAAoYAAAISQAAAAAAAAAADwAAAATnAAAAJgAAChgAAAhJ",
+            "width": 1330,
+            "height": 2084,
+            "x": 1255,
+            "y": 38
+        },
+        "recentfiles": {
+            "geometry": "AdnQywADAAAAAAQvAAACNAAACs8AAAY7AAAELwAAAjQAAArPAAAGOwAAAAAAAAAADwAAAAQvAAACNAAACs8AAAY7",
+            "width": 1697,
+            "height": 1032,
+            "x": 1071,
+            "y": 564
+        }
+    },
+    "recent": [
+        {
+            "name": "spy-life",
+            "path": "/home/jure/src/spy-life"
+        },
+        {
+            "name": "soup-chef",
+            "path": "/home/jure/src/soup-chef"
+        },
+        {
+            "name": "battlecats",
+            "path": "/home/jure/src/battlecats"
+        },
+        {
+            "name": "timestep-instant",
+            "path": "/home/jure/src/timestep-instant"
+        }
+    ],
+    "copy_formats": []
+}

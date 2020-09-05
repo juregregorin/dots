@@ -8,8 +8,7 @@
 ;=====================================================
 
 [colors]
-;background = ${xrdb:color0:#222}
-background = #B2000000
+background = ${xrdb:background_alpha:#222}
 background-alt = #1e88e5
 ;foreground = ${xrdb:color7:#222}
 foreground = #ffffff
@@ -52,7 +51,7 @@ font-1 = SF Pro Display:size=13;2
 
 modules-left = bspwm
 modules-center = xwindow
-modules-right = xkeyboard pulseaudio date eth battery powermenu
+modules-right = mpd xkeyboard pulseaudio date eth battery powermenu
 
 tray-position = right
 tray-padding = 2
@@ -174,7 +173,7 @@ icon-play = 
 icon-pause = 
 icon-next = 
 
-label-song-maxlen = 25
+label-song-maxlen = 35
 label-song-ellipsis = true
 
 [module/cpu]

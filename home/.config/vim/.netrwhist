@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/jure/.vscode-oss'
+let g:netrw_dirhist_7='/home/jure/.vscode-oss/extensions'
+let g:netrw_dirhist_6='/home/jure/.vscode-oss'
+let g:netrw_dirhist_5='/home/jure/.config/sxhkd'
+let g:netrw_dirhist_4='/home/jure/src/casino-heist/.git'
+let g:netrw_dirhist_3='/home/jure/.ssh'
+let g:netrw_dirhist_2='/home/jure/.config/sxhkd'
+let g:netrw_dirhist_1='/home/jure/.config/alacritty'
+let g:netrw_dirhist_0='/home/jure/.config/mpd'
+let g:netrw_dirhist_9='/home/jure/src/casino-heist/.git/branches'
