@@ -13,4 +13,4 @@ for f in `find root -mindepth 1 -not -type d -printf '%P\n'`; do
 done
 
 IFS=$SAVEIFS
-	
+
