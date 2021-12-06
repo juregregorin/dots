@@ -1,2 +1,2 @@
 #!/bin/sh
-cat dependencies | xargs yay -S --noconfirm
+cat dependencies | xargs yay -Syu --noconfirm
